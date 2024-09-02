@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='flex p-10 justify-between text-pink-700'>
+    <div className='flex p-20 justify-between  text-pink-700 mb-10'>
         <h1>The Dojo Blog</h1>
         <div>
             <ul className='flex gap-10'>

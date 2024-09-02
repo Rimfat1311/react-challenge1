@@ -4,7 +4,7 @@ export default function App() {
   return (
     <h1 className="">
       <Navbar />
-      Hello world!
+      App component
     </h1>
   )
 }
