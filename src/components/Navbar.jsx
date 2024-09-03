@@ -2,7 +2,11 @@ import React from 'react'
 
 const Navbar = () => {
   const handleClick = () => {
-    console.log('hello timnan');
+    console.log('hello timnan',);
+  }
+
+  const handleClickAgain = (name, ) => {
+    console.log('hello ' + name);
   }
   return (
     <div className='flex p-20 justify-between  text-pink-700 mb-10'>
@@ -14,6 +18,7 @@ const Navbar = () => {
             </ul>
         </div>
         <button onClick={handleClick} className='bg-red-500 p-5 hover:bg-slate-800'>click me</button>
+        <button onClick={() => handleClickAgain('happy')}  className='bg-green-500 p-5 hover:bg-slate-800'>click me again</button>
 
     </div>
   )
