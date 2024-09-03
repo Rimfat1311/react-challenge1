@@ -17,8 +17,8 @@ const Navbar = () => {
                 <li><a href="">New Blog</a></li>
             </ul>
         </div>
-        <button onClick={handleClick} className='bg-red-500 p-5 hover:bg-slate-400'>click me</button>
-        <button onClick={(e) => handleClickAgain('happy',e)}  className='bg-green-500 p-5 hover:bg-slate-400'>click me again</button>
+        <button onClick={handleClick} className='bg-orange-500 p-5 hover:bg-slate-400'>click me</button>
+        <button onClick={(e) => handleClickAgain('happy',e)}  className='bg-pink-500 p-5 hover:bg-slate-400'>click me again</button>
 
     </div>
   )
