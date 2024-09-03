@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Navbar = () => {
-  // logic
   const handleClick = (e) => {
     console.log('hello timnan', e);
   }
@@ -10,7 +9,6 @@ const Navbar = () => {
     console.log('hello ' + name, e.target);
   }
   return (
-    // interface
     <div className='flex p-20 justify-between  text-pink-700 mb-10'>
         <h1>The Dojo Blog</h1>
         <div>
@@ -19,8 +17,8 @@ const Navbar = () => {
                 <li><a href="">New Blog</a></li>
             </ul>
         </div>
-        <button onClick={handleClick} className='bg-red-500 p-5 hover:bg-slate-800'>click me</button>
-        <button onClick={(e) => handleClickAgain('happy',e)}  className='bg-green-500 p-5 hover:bg-slate-800'>click me again</button>
+        <button onClick={handleClick} className='bg-red-500 p-5 hover:bg-slate-400'>click me</button>
+        <button onClick={(e) => handleClickAgain('happy',e)}  className='bg-green-500 p-5 hover:bg-slate-400'>click me again</button>
 
     </div>
   )
