@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Navbar = () => {
+  // logic
   const handleClick = (e) => {
     console.log('hello timnan', e);
   }
@@ -9,6 +10,7 @@ const Navbar = () => {
     console.log('hello ' + name, e.target);
   }
   return (
+    // interface
     <div className='flex p-20 justify-between  text-pink-700 mb-10'>
         <h1>The Dojo Blog</h1>
         <div>
