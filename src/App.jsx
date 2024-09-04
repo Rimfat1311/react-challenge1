@@ -1,10 +1,11 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./Navbar";
+import Home from "./Home";
 
 export default function App() {
   return (
-    <h1 className="">
+    <h1 className="text-center">
       <Navbar />
-      App component
+      <Home />
     </h1>
   )
 }
