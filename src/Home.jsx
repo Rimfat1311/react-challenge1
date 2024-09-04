@@ -10,7 +10,7 @@ const Home = () => {
     <div>
         <h2>Homepage</h2>
         <button onClick={handleClick} className='bg-orange-500 p-5 hover:bg-slate-400'>click me</button>
-        <button>tfghjkl ertyui</button>
+   
         </div>
   )
 }
