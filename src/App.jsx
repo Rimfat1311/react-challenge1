@@ -3,9 +3,12 @@ import Home from "./Home";
 
 export default function App() {
   return (
-    <h1 className="text-center">
+    <div className="App">
       <Navbar />
-      <Home />
-    </h1>
+      <div className="content">
+        
+        <Home />
+      </div>
+    </div>
   )
 }
