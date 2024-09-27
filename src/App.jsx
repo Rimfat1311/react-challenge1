@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <Navbar />
       <div className="content">
-        
+      
         <Home />
       </div>
     </div>
