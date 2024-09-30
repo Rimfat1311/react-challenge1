@@ -14,6 +14,7 @@ const BlogList = ({ blogs, title, handleDelete }) => {
                     <button
                     onClick={()=>handleDelete(blog.id)}
                         className="bg-pink-500 text-white shadow-md shadow-slate-600"
+                        
                         >
                         Delete Blog
                     </button>
